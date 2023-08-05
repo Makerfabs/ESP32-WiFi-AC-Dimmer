@@ -5,19 +5,20 @@
 // IO Configuration
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-const int SCR_Pin = 9; // the pin that the SCR is attached to
+// ESP32
+#define SCR_Pin 25
+#define RELAY_PIN 26
+#define LED_PIN 32
+#define ZCD_PIN 33
+
 #define AC_CTRL_OFF digitalWrite(SCR_Pin, LOW)
 #define AC_CTRL_ON digitalWrite(SCR_Pin, HIGH)
 
-const int RELAY_PIN = 20; // the pin that the Relay is attached to
 #define RELAY_OFF digitalWrite(RELAY_PIN, LOW)
 #define RELAY_ON digitalWrite(RELAY_PIN, HIGH)
 
-const int LED_PIN = 19; // the pin that the LED is attached to
 #define LED_OFF digitalWrite(LED_PIN, HIGH)
 #define LED_ON digitalWrite(LED_PIN, LOW)
-
-const int ZCD_PIN = 10;
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Parameter Initialization

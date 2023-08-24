@@ -24,7 +24,7 @@ Note:
 
 ## Intruduce
 
-Product Link ：[]() 
+Product Link ：[WIFI AC Dimmer Switch](https://www.makerfabs.com/wifi-ac-dimmer-switch.html) 
 
 Wiki Link : []()
 
@@ -32,11 +32,11 @@ Arduino ATmega328P as MCU, inherited Ra-08 Lorawan module and 4 relays.
 
 ## Feature
 
-- LoRaWAN Nodes, RA08H
-- Onboard Relays
-- Full Open Source- all hardware and software open at GitHub
-- Compatible with Arduino
-- Supply power voltage: 12V DC
+- On-board AC-DC, No external power supply needed;
+- On Board Relay to totally shut down current leakage;
+- ESP32;
+- Suitable for AC 110V~230V, Any frequency;
+- Max Load: 2KW;
 
 ### Front:
 

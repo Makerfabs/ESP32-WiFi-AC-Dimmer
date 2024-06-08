@@ -47,7 +47,7 @@ void setup()
   delay(3000);
 
   pinMode(ZCD_PIN, INPUT);                     // initialize the ZCDPin as an input:
-  attachInterrupt(10, zero_cross_int, RISING); // CHANGE FALLING RISING
+  attachInterrupt(ZCD_PIN, zero_cross_int, RISING); // CHANGE FALLING RISING
 
   Serial.println("test begin v1.2");
 }
